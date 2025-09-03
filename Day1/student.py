@@ -1,0 +1,15 @@
+num=int(input('enter student number:'))
+name=input('enter student name:')
+m1=int(input('enter subject 1 marks:'))
+m2=int(input('enter subject 2 marks:'))
+m3=int(input('enter subject 3 marks:'))
+total=m1+m2+m3
+avg=total/3
+print('Student details:')
+print('student name:',name)
+print('student number:',num)
+print('subject 1 marks:',m1)
+print('subject 2 marks:',m2)
+print('subject 3 marks:',m3)
+print('total marks:',total)
+print('average:',round(avg,2))
